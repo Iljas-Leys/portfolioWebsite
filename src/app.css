@@ -1,0 +1,72 @@
+html, body{
+    background-color: #e0fbfc;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+.navItem{
+    width: 230px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    border: 2px solid #5c6b73;
+    border-radius: 10px;
+}
+
+.navItem:hover{
+    background-color: #5c6b73;
+    color: white;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: 'pointer';
+}
+
+.customBold {
+    color: #5c6b73;
+    font-weight: bolder;
+}
+
+.p-progressbar{
+    background-color: #c2dfe3;
+}
+
+.titleText, .titleSubText {
+    color: #FFFFFF;
+}
+
+.titleContainer {
+    background-color: rgba(157, 180, 192, 0.9);
+}
+
+@media (min-width: 768px) {
+    #mainContent {
+        margin-left: 300px;
+    }
+    .titleText{
+        font-size: 72px;
+    }
+    .titleSubText{
+        font-size: 24px;
+    }
+    .titleSpacer {
+        padding-top: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .titleText{
+        font-size: 36px;
+    }
+    .titleSubText{
+        font-size: 16px;
+    }
+    .titleSpacer {
+        padding-top: 250px;
+    }
+}
