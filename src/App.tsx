@@ -6,6 +6,7 @@ import { Kempenbloei } from './pages/kempenbloei';
 import { DesktopNavigation } from './components/desktopNavigation';
 import { MobileNavigation } from './components/mobileNavigation';
 import { Portfolio } from './pages/portfolio';
+import { Ai } from './pages/ai';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="/" element={<Main />} />
               <Route path="kempenbloei" element={<Kempenbloei />} />
               <Route path="portfolio" element={<Portfolio />} />
+              <Route path="ai" element={<Ai />} />
             </Routes>
           </BrowserRouter>
         </div>

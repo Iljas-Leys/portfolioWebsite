@@ -234,10 +234,10 @@ export function Main(){
                             <Card.Img variant="top" src="hotel.png" />
                             <Card.Body>
                                 <Card.Title>
-                                Project Kempenbloei
+                                    Project Kempenbloei
                                 </Card.Title>
                                 <Card.Text>
-                                This is a school project for requirements analysis and UML related to the imaginary hotel company called "Kempenbloei." The purpose of this assignment is to enhance our skills in communicating with a client, UML, and requirements analysis.
+                                    This is a school project for requirements analysis and UML related to the imaginary hotel company called "Kempenbloei." The purpose of this assignment is to enhance our skills in communicating with a client, UML, and requirements analysis.
                                 </Card.Text>
                                 <Link to="/kempenbloei"><Button variant='secondary'>Learn more</Button></Link>
                             </Card.Body>
@@ -248,12 +248,26 @@ export function Main(){
                             <Card.Img variant="top" src="portfolio.png" />
                             <Card.Body>
                                 <Card.Title>
-                                Portfolio site
+                                    Portfolio site
                                 </Card.Title>
                                 <Card.Text>
-                                This page has been crafted entirely by hand, without the use of templates, thanks to the power of React.
+                                    This page has been crafted entirely by hand, without the use of templates, thanks to the power of React.
                                 </Card.Text>
                                 <Link to="/portfolio"><Button variant='secondary'>Learn more</Button></Link>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='p-3'>
+                            <Card.Img variant="top" src="ai.png" />
+                            <Card.Body>
+                                <Card.Title>
+                                    AI image generation
+                                </Card.Title>
+                                <Card.Text>
+                                    I love using AI to create unique, innovative photos. I always try to stay up-to-date with the latest technological advancements and continually explore new ways to blend creativity with coding.
+                                </Card.Text>
+                                <Link to="/ai"><Button variant='secondary'>Learn more</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col>
